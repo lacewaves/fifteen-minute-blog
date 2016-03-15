@@ -1,0 +1,51 @@
+body {
+  font-family: Helvetica;
+  padding:0;
+  margin:0;
+}
+
+.title-banner {
+  background-color: #2980B9;
+  color:white;
+  font-weight:bold;
+  padding:20px;
+  font-size:24pt;
+  text-align: center;
+}
+
+.blog-wrapper {
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.articles-wrapper {
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.article {
+  width:100%;
+}
+
+.article-title a, h1 {
+  background-color:#E67E22;
+  text-decoration:none;
+  color:white;
+  font-size:20pt;
+}
+
+.article-title, .article-body {
+  padding:10px;
+}
+
+.button {
+  text-decoration: none;
+  color:white;
+  background-color: #2980B9;
+  padding:20px;
+  border-radius:10px;
+  border: 0px solid;
+  font-size:18pt;
+}

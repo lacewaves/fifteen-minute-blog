@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RailsDemoTest</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="title-banner">The Super Cool Blog With <%= @article_count %> Article(s).</div>
+  <div class="blog-wrapper">
+      <%= yield %>
+  </div>
+</body>
+</html>

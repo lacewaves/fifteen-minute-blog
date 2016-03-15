@@ -1,0 +1,15 @@
+<div class="articles-wrapper">
+<% @articles.each do |article| %>
+  <div class="article">
+    <h1 class="article-title">
+    <%= link_to "/articles/#{article.id}" do %>
+      <%= article.title %>
+    <% end %>
+    </h1>
+    <p class="article-body">
+      <%= article.body %>
+    </p>
+  </div>
+<% end %>
+<%= link_to "Administrate Me!", "/admin", class: "button" %>
+</div>
